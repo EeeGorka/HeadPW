@@ -1800,6 +1800,12 @@ body {
   }
 }
 
+@media (max-width: 73.4375em) {
+  .title {
+    font-size: calc(3.125rem + 49 * (100vw - 45rem) / 455);
+  }
+}
+
 @media (max-width: 45em) {
   .title {
     font-size: 3.125rem;
@@ -2072,10 +2078,6 @@ body {
 
   .btn_red {
     min-height: calc(2.625rem + 18 * (100vw - 20rem) / 855);
-  }
-
-  .title {
-    font-size: calc(3.125rem + 49 * (100vw - 45rem) / 455);
   }
 
   .title_s44 {
